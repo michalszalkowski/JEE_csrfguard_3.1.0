@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<h1>Shit</h1>
+<h1>Index3</h1>
 
 <form id="mainForm" action="" method="POST">
     <br/>
@@ -35,7 +35,7 @@
 
         $.ajax({
             type: "POST",
-            url: '/jee_csrfguard_3.1.0/rest/person/shit?<csrf:tokenname/>=<csrf:tokenvalue/>',
+            url: '/jee_csrfguard_3.1.0/rest/person/name2?<csrf:tokenname/>=<csrf:tokenvalue/>',
             data: JSON.stringify(json),
             contentType: "application/json",
             success: function (response) {

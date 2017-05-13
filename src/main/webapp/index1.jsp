@@ -14,7 +14,7 @@
 
     <input type="text"
            name="<csrf:tokenname/>"
-           value="<csrf:tokenvalue uri='/jee_csrfguard_3.1.0/rest/person/name1'/>"/>
+           value="<csrf:tokenvalue/>"/>
 
     Name:
     <input type="text" name="name">

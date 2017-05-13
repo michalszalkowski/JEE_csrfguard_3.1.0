@@ -10,11 +10,8 @@
 
 <h1>Simple form 1</h1>
 
-<form action="/jee_csrfguard_3.1.0/rest/person/name1" method="POST">
+<form action="/jee_csrfguard_3.1.0/rest/person/name1?<csrf:tokenname/>=<csrf:tokenvalue/>" method="POST">
 
-    <input type="text"
-           name="<csrf:tokenname/>"
-           value="<csrf:tokenvalue/>"/>
 
     Name:
     <input type="text" name="name">
